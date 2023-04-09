@@ -105,4 +105,6 @@ function PortfolioPage() {
   )
 }
 
+export const Head = () => <title>Rubén TJ {">"} Portoflio</title>
+
 export default PortfolioPage
