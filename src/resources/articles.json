@@ -1,0 +1,230 @@
+[
+    {
+        "backgroundImage": {
+            "en": "/images/articles/kpis.jpeg",
+            "es": "/images/articles/kpis.jpeg"
+        },
+        "title": {
+            "en": "Si no se mide, no se puede mejorar y otras formas de dogmatismo",
+            "es": "Si no se mide, no se puede mejorar y otras formas de dogmatismo"
+        },
+        "description": {
+            "en": "La fina línea entre lo mínimo y demasiado cuando medimos en lo digital",
+            "es": "La fina línea entre lo mínimo y demasiado cuando medimos en lo digital"
+        },
+        "articleUrl": {
+            "en": "https://medium.com/trampoline-project/si-no-se-mide-no-se-puede-mejorar-y-otras-formas-de-dogmatismo-147a1efe94ba?source=friends_link&sk=03d76cbc439b51186ec2fa37396bc3bf",
+            "es": "https://medium.com/trampoline-project/si-no-se-mide-no-se-puede-mejorar-y-otras-formas-de-dogmatismo-147a1efe94ba?source=friends_link&sk=03d76cbc439b51186ec2fa37396bc3bf"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://medium.com/trampoline-project",
+            "es": "https://medium.com/trampoline-project"
+        },
+        "communityName": {
+            "en": "Trampoline",
+            "es": "Trampoline"
+        },
+        "articleReadTimeText": {
+            "en": "Octubre 29, 2020 - 5 min read",
+            "es": "Octubre 29, 2020 - 5 min read"
+        }
+    },
+    {
+        "backgroundImage": {
+            "en": "/images/articles/outsourcing.jpeg",
+            "es": "/images/articles/outsourcing.jpeg"
+        },
+        "title": {
+            "en": "¿Outsourcing de desarrollo de producto?",
+            "es": "¿Outsourcing de desarrollo de producto?"
+        },
+        "description": {
+            "en": "Escenarios y consideraciones para encontrar un buen proveedor",
+            "es": "Escenarios y consideraciones para encontrar un buen proveedor"
+        },
+        "articleUrl": {
+            "en": "https://medium.com/trampoline-project/outsourcing-de-desarrollo-de-producto-1130b2303703?source=friends_link&sk=1ef69650fdc40afe5fc92f183ae7f7c7",
+            "es": "https://medium.com/trampoline-project/outsourcing-de-desarrollo-de-producto-1130b2303703?source=friends_link&sk=1ef69650fdc40afe5fc92f183ae7f7c7"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://medium.com/trampoline-project",
+            "es": "https://medium.com/trampoline-project"
+        },
+        "communityName": {
+            "en": "Trampoline",
+            "es": "Trampoline"
+        },
+        "articleReadTimeText": {
+            "en": "Septiembre 17, 2020 - 4 min read",
+            "es": "Septiembre 17, 2020 - 4 min read"
+        }
+    },
+    {
+        "backgroundImage": {
+            "en": "/images/articles/retention.jpeg",
+            "es": "/images/articles/retention.jpeg"
+        },
+        "title": {
+            "en": "Cuál es la retención de tu negocio",
+            "es": "Cuál es la retención de tu negocio"
+        },
+        "description": {
+            "en": "Cómo calcular la retención general de clientes en Spreadsheet / Excel",
+            "es": "Cómo calcular la retención general de clientes en Spreadsheet / Excel"
+        },
+        "articleUrl": {
+            "en": "https://medium.com/puntotech/cu%C3%A1l-es-la-retenci%C3%B3n-de-tu-negocio-3ee76e00847f?source=friends_link&sk=fe0932d5c513f54e7c5d6ca1ee20029e",
+            "es": "https://medium.com/puntotech/cu%C3%A1l-es-la-retenci%C3%B3n-de-tu-negocio-3ee76e00847f?source=friends_link&sk=fe0932d5c513f54e7c5d6ca1ee20029e"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://towardsdatascience.com/",
+            "es": "https://medium.com/puntotech"
+        },
+        "communityName": {
+            "en": "TDS",
+            "es": "PuntoTech"
+        },
+        "articleReadTimeText": {
+            "en": "Junio 18, 2020 - 8 min read",
+            "es": "Junio 18, 2020 - 8 min read"
+        }
+    },
+    {
+        "backgroundImage": {
+            "en": "/images/articles/heatmap.png",
+            "es": "/images/articles/heatmap.png"
+        },
+        "title": {
+            "en": "Un simple Mapa de Calor en Canvas",
+            "es": "Un simple Mapa de Calor en Canvas"
+        },
+        "description": {
+            "en": "Cómo realizar un mapa de calor personalizado sobre GoogleMaps",
+            "es": "Cómo realizar un mapa de calor personalizado sobre GoogleMaps"
+        },
+        "articleUrl": {
+            "en": "https://medium.com/puntotech/un-simple-mapa-de-calor-en-canvas-10cd7f6b207c?source=friends_link&sk=b73e0428c09e3d17a1a5c39b4cb2bf2b",
+            "es": "https://medium.com/puntotech/un-simple-mapa-de-calor-en-canvas-10cd7f6b207c?source=friends_link&sk=b73e0428c09e3d17a1a5c39b4cb2bf2b"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://towardsdatascience.com/",
+            "es": "https://medium.com/puntotech"
+        },
+        "communityName": {
+            "en": "TDS",
+            "es": "PuntoTech"
+        },
+        "articleReadTimeText": {
+            "en": "Junio 11, 2020 - 6 min read",
+            "es": "Junio 11, 2020 - 6 min read"
+        }
+    },
+    {
+        "backgroundImage": {
+            "en": "/images/articles/medium_2.gif",
+            "es": "/images/articles/medium_2.gif"
+        },
+        "title": {
+            "en": "Network Graph with D3js on Canvas",
+            "es": "Gráfico de Red con D3.js en Canvas"
+        },
+        "description": {
+            "en": "Data visualization is a prism with many faces; where some see a simple bar chart...",
+            "es": "La visualización de datos es un prisma de muchas caras; donde unos ven un simple gráfico..."
+        },
+        "articleUrl": {
+            "en": "https://towardsdatascience.com/network-graph-with-d3js-on-canvas-b90f275dfaa6?sk=502425af25aa7e3efad9e4ca4c4f7552",
+            "es": "https://medium.com/puntotech/gr%C3%A1fico-de-red-con-d3-js-en-canvas-fe39632efcba?source=friends_link&sk=d15f72faf28352ce78b7b7ba0a0b02b1"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://towardsdatascience.com/",
+            "es": "https://medium.com/puntotech"
+        },
+        "communityName": {
+            "en": "TDS",
+            "es": "PuntoTech"
+        },
+        "articleReadTimeText": {
+            "en": "May 5th, 2020 - 7 min read",
+            "es": "Mayo 5, 2020 - 8 min read"
+        }
+    },
+    {
+        "backgroundImage": {
+            "en": "/images/articles/medium_1.png",
+            "es": "/images/articles/medium_1.png"
+        },
+        "title": {
+            "en": "How to use D3js with WebComponents",
+            "es": "Cómo usar D3 con WebComponents"
+        },
+        "description": {
+            "en": "Stencil allows creating a modular, exportable and a work environment accessible by the main web...",
+            "es": "Stencil permite crear un entorno de trabajo modular, exportable y accesible por los..."
+        },
+        "articleUrl": {
+            "en": "https://towardsdatascience.com/how-to-use-d3js-with-webcomponents-a75ae4f980de?sk=15370d729ed0546584abbbbc4eba9e39",
+            "es": "https://medium.com/puntotech/c%C3%B3mo-usar-d3-con-webcomponents-44ea4a95a238?source=friends_link&sk=4936cb0893c2851b67ec3e4a42091c61"
+        },
+        "profileUrl": {
+            "en": "https://medium.com/@benru",
+            "es": "https://medium.com/@benru"
+        },
+        "profileName": {
+            "en": "Rubén Triviño",
+            "es": "Rubén Triviño"
+        },
+        "communityUrl": {
+            "en": "https://towardsdatascience.com/",
+            "es": "https://medium.com/puntotech"
+        },
+        "communityName": {
+            "en": "TDS",
+            "es": "PuntoTech"
+        },
+        "articleReadTimeText": {
+            "en": "Apr 18th, 2020 - 6 min read",
+            "es": "Abril 18, 2020 - 5 min read"
+        }
+    }
+]

@@ -1,0 +1,173 @@
+@use "sass:map";
+
+$data: (
+    (growth: 1.1,
+        background_color: #1abc9c),
+    (growth: 1.5,
+        background_color: #2ecc71),
+    (growth: 1.3,
+        background_color: #3498db),
+    (growth: 1.3,
+        background_color: #9b59b6),
+    (growth: 1.1,
+        background_color: #34495e),
+    (growth: 1,
+        background_color: #f1c40f),
+    (growth: 1,
+        background_color: #3498db),
+    (growth: 1,
+        background_color: #e74c3c),
+    (growth: 1,
+        background_color: #e67e22)
+);
+
+.last-works-section {
+    background-color: var(--background-color);
+}
+
+.last-works-title {
+    width: 100%;
+    max-width: 600px;
+    padding: var(--content-padding);
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes ripple {
+    from {
+        background-size: 0px;
+        background-position: 0 100%;
+    }
+
+    to {
+        background-size: 1000px;
+        background-position: -400px calc(100% + 500px);
+    }
+}
+
+.last-works-container {
+    max-width: var(--max-content-width);
+    padding: 0 var(--content-padding) var(--content-padding) var(--content-padding);
+    display: flex;
+    align-items: stretch;
+    min-height: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+
+    @for $i from 1 through 3 {
+        .column:nth-child(#{$i}) {
+
+            @for $j from 1 through 3 {
+                $rowIndex: $i * 3+$j - 3;
+                $chunk: nth($data, $rowIndex);
+
+                .cell:nth-child(#{$j}) {
+                    background-color: map-get($chunk, "background_color");
+                    flex-grow: map-get($chunk, "growth");
+                    flex-basis: 0px;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+
+    .cell {
+        border-radius: 12px;
+        margin: 8px;
+        box-sizing: border-box;
+
+        .inner-content {
+            height: 100%;
+            width: 100%;
+            border-radius: inherit;
+            background-repeat: no-repeat;
+            background-size: 0px;
+            background-position: 0 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            >div {
+                box-sizing: border-box;
+                transition: 0.5s;
+                background-color: var(--translucent);
+                width: 100%;
+                height: 3rem;
+                padding: var(--content-padding);
+                border-radius: inherit;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                overflow: hidden;
+
+                h3 {
+                    color: white;
+                    margin: -10px 0 4px -5px;
+                }
+
+                small {
+                    font-weight: bold;
+                    color: white;
+                    transition: 0.5s;
+                    opacity: 0;
+                }
+
+                p {
+                    transition: 1s;
+                    color: white;
+                    opacity: 0;
+                    margin: 4px 0 0 0;
+                }
+            }
+        }
+
+        :hover {
+            animation: ripple 2s forwards;
+
+            >div {
+                height: 100%;
+                background-color: var(--translucent-dark);
+                border-radius: 12px;
+
+                small {
+                    opacity: 1;
+                }
+
+                p {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .column {
+        min-width: 250px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        flex-basis: 0;
+    }
+}
+
+@media (max-width: 547px) {
+
+    .last-works-container {
+        flex-direction: column;
+        height: 100%;
+
+        .column {
+            flex-direction: column;
+
+            .cell {
+                height: 200px;
+            }
+        }
+
+    }
+}

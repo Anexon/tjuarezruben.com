@@ -1,0 +1,27 @@
+.footer-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 12rem;
+    background-color: var(--background-color);
+
+    span {}
+
+    >div {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            font-size: 2em;
+            text-decoration: none;
+            color: var(--primary-color);
+            margin: 12px;
+        }
+    }
+
+}
